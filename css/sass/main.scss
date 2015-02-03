@@ -1,0 +1,182 @@
+$circleoneColor: #D42667;
+$circletwoColor: #701236;
+$circlethreeColor: #1C030D;
+$circlefourColor: #72696D;
+$circlefiveColor: #DD6F22;
+$circlesixColor: #C7BFB9;
+$fontColor: $circlefourColor;
+$h1font: 'Oswald', sans-serif;
+
+
+.h1 {
+	font-family: $h1font;
+	color: darken($fontColor, 10%);
+	font-size: 3em;
+}
+.h2 {
+	font-family: $h1font;
+	text-transform: uppercase;
+
+}
+.h3 {
+	font-family: $h1font;
+}
+.h4 {
+	font-family: $h1font;
+}
+.h5 {
+	font-family: $h1font;
+}
+.body {
+	font-family: 'lato', sans-serif; 
+	font-size: 18px;
+}
+
+#header {
+	
+	border-bottom: 1px solid grey;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+#header img {
+	float:left;
+	width: 150px;
+	margin-top:30px;
+
+}
+
+#header .h2 {
+	margin-left: 160px;
+	margin-top: 100px;
+	
+}
+
+.circles {
+	margin-top: 20px;
+	padding-bottom: 13px;
+	border-bottom: 1px solid grey;
+}
+
+.typography {
+	border-bottom: 1px solid grey;
+}
+/* finally got the circles to accept text */
+.box {
+	margin-top: 20px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin: 3px;
+	display:inline-block;
+	font-size: 15px;
+	color: #fff;
+	line-height: 80px;
+	text-align: center;
+
+}
+
+.colorname {
+	display:inline-block;
+	margin: 15px;
+}
+
+
+#circleone {
+	background-color: $circleoneColor;
+
+}
+#circletwo {
+	background-color: $circletwoColor;
+}
+#circlethree {
+	background-color: $circlethreeColor;
+}
+#circlefour{
+	background-color: $circlefourColor;
+}
+#circlefive {
+	background-color: $circlefiveColor;
+}
+#circlesix {
+	background-color: $circlesixColor;
+}
+
+.button {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 20px;
+}
+
+.btn-custom1 {
+  background-color: $circleoneColor;
+  border-color: $circleoneColor;
+  color: white;
+}
+
+.btn-custom1:hover,
+.btn-custom1:focus,
+.btn-custom1:active,
+.btn-custom1.active  {
+  background-color: #be225c;
+  border-color: #a91e52;
+}
+
+.btn-custom1.disabled:hover,
+.btn-custom1.disabled:focus,
+.btn-custom1.disabled:active,
+.btn-custom1.disabled.active, {
+  background-color: $circleoneColor;
+  border-color: $circleoneColor;
+}
+
+.btn-custom2 {
+  background-color: $circlefiveColor;
+  border-color: $circlefiveColor;
+  margin-top: 15px;
+}
+.btn-custom2:hover,
+.btn-custom2:focus,
+.btn-custom2:active,
+.btn-custom2.active {
+  background-color: #c7641f;
+  border-color: #b1591b;
+}
+.btn-custom2.disabled:hover,
+.btn-custom2.disabled:focus,
+.btn-custom2.disabled:active,
+.btn-custom2.disabled.active, {
+  background-color: $circlefiveColor;
+  border-color: $circlefiveColor;
+}
+
+.btn-custom3 {
+  background-color: $circletwoColor;
+  border-color: $circletwoColor;
+  margin-top: 15px;
+  color: white;
+}
+.btn-custom3:hover,
+.btn-custom3:focus,
+.btn-custom3:active,
+.btn-custom3.active {
+  background-color: #5a0e2b;
+  border-color: #440b21;
+}
+.btn-custom3.disabled:hover,
+.btn-custom3.disabled:focus,
+.btn-custom3.disabled:active,
+.btn-custom3.disabled.active, {
+  background-color: $circletwoColor;
+  border-color: $circletwoColor;
+}
+
+/* Create a small height at 30px */
+.navbar-sm {min-height:30px}
+.navbar-sm .navbar-brand,
+.navbar-sm .navbar-nav>li>a {padding-top:5px; padding-bottom:5px}
+.navbar-sm .navbar-brand {height: 30px}
+.navbar-sm .navbar-toggle {margin: 3px 9px 3px 0px; padding: 4px 4px 4px 4px;}
+.navbar-sm .navbar-toggle .icon-bar {width: 16px;}
+

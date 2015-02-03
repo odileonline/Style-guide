@@ -1,0 +1,161 @@
+.h1 {
+  font-family: "Oswald", sans-serif;
+  color: #575154;
+  font-size: 3em; }
+
+.h2 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase; }
+
+.h3 {
+  font-family: "Oswald", sans-serif; }
+
+.h4 {
+  font-family: "Oswald", sans-serif; }
+
+.h5 {
+  font-family: "Oswald", sans-serif; }
+
+.body {
+  font-family: 'lato', sans-serif;
+  font-size: 18px; }
+
+#header {
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+  padding-bottom: 10px; }
+
+#header img {
+  float: left;
+  width: 150px;
+  margin-top: 30px; }
+
+#header .h2 {
+  margin-left: 160px;
+  margin-top: 100px; }
+
+.circles {
+  margin-top: 20px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid grey; }
+
+.typography {
+  border-bottom: 1px solid grey; }
+
+/* finally got the circles to accept text */
+.box {
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 3px;
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  line-height: 80px;
+  text-align: center; }
+
+.colorname {
+  display: inline-block;
+  margin: 15px; }
+
+#circleone {
+  background-color: #D42667; }
+
+#circletwo {
+  background-color: #701236; }
+
+#circlethree {
+  background-color: #1C030D; }
+
+#circlefour {
+  background-color: #72696D; }
+
+#circlefive {
+  background-color: #DD6F22; }
+
+#circlesix {
+  background-color: #C7BFB9; }
+
+.button {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px; }
+
+.btn-custom1 {
+  background-color: #D42667;
+  border-color: #D42667;
+  color: white; }
+
+.btn-custom1:hover,
+.btn-custom1:focus,
+.btn-custom1:active,
+.btn-custom1.active {
+  background-color: #be225c;
+  border-color: #a91e52; }
+
+.btn-custom1.disabled:hover,
+.btn-custom1.disabled:focus,
+.btn-custom1.disabled:active,
+.btn-custom1.disabled.active {
+  background-color: #D42667;
+  border-color: #D42667; }
+
+.btn-custom2 {
+  background-color: #DD6F22;
+  border-color: #DD6F22;
+  margin-top: 15px; }
+
+.btn-custom2:hover,
+.btn-custom2:focus,
+.btn-custom2:active,
+.btn-custom2.active {
+  background-color: #c7641f;
+  border-color: #b1591b; }
+
+.btn-custom2.disabled:hover,
+.btn-custom2.disabled:focus,
+.btn-custom2.disabled:active,
+.btn-custom2.disabled.active {
+  background-color: #DD6F22;
+  border-color: #DD6F22; }
+
+.btn-custom3 {
+  background-color: #701236;
+  border-color: #701236;
+  margin-top: 15px;
+  color: white; }
+
+.btn-custom3:hover,
+.btn-custom3:focus,
+.btn-custom3:active,
+.btn-custom3.active {
+  background-color: #5a0e2b;
+  border-color: #440b21; }
+
+.btn-custom3.disabled:hover,
+.btn-custom3.disabled:focus,
+.btn-custom3.disabled:active,
+.btn-custom3.disabled.active {
+  background-color: #701236;
+  border-color: #701236; }
+
+/* Create a small height at 30px */
+.navbar-sm {
+  min-height: 30px; }
+
+.navbar-sm .navbar-brand,
+.navbar-sm .navbar-nav > li > a {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.navbar-sm .navbar-brand {
+  height: 30px; }
+
+.navbar-sm .navbar-toggle {
+  margin: 3px 9px 3px 0px;
+  padding: 4px 4px 4px 4px; }
+
+.navbar-sm .navbar-toggle .icon-bar {
+  width: 16px; }

@@ -1,3 +1,4 @@
+/* can't get to import bourbon.scss correctly! */
 .h1 {
   font-family: "Oswald", sans-serif;
   color: #575154;
@@ -80,7 +81,6 @@
 .button {
   margin-bottom: 15px;
   margin-top: 15px;
-  border-bottom: 1px solid grey;
   padding-bottom: 20px; }
 
 .btn-custom1 {
@@ -141,9 +141,15 @@
   background-color: #701236;
   border-color: #701236; }
 
+.navigation {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-bottom: 20px; }
+
 /* Create a small height at 30px */
 .navbar-sm {
-  min-height: 30px; }
+  min-height: 30px;
+  width: 80%; }
 
 .navbar-sm .navbar-brand,
 .navbar-sm .navbar-nav > li > a {
@@ -159,3 +165,47 @@
 
 .navbar-sm .navbar-toggle .icon-bar {
   width: 16px; }
+
+.borders {
+  border-top: 1px solid grey; }
+
+.img-rounded {
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.6), 0px 0px 0px 14px #fff, 0px 0px 0px 18px rgba(0, 0, 0, 0.2), 6px 6px 8px 17px #A09D9D; }
+
+.img-circle {
+  width: 200px;
+  height: 200px;
+  border: 5px dotted #701236; }
+
+.img-polaroid {
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 0; }
+
+/*use the following for a transition 
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		display: inline-block; 
+		
+		border: 60px solid $circlefiveColor;
+		border-radius: 100%;
+
+		-webkit-transition: 0.5s ease;
+	}
+.img-polaroid:hover {
+		border-width: 0;
+		border-color: rgba(0, 0, 0, 0.5);
+	}
+*/
+.filters {
+  border-top: 1px solid grey;
+  margin-top: 50px; }
+
+.filters img-rounded {
+  border: 5px solid #DD6F22; }

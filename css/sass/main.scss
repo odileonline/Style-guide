@@ -1,5 +1,5 @@
 /* can't get to import bourbon.scss correctly! */
-
+@import "bourbon";
 
 $circleoneColor: #D42667;
 $circletwoColor: #701236;
@@ -197,7 +197,7 @@ $h1font: 'Oswald', sans-serif;
 
 
 }
-.img-rounded {
+.borders .img-rounded {
 	width: 200px;
 	height: 200px;
 	margin-top: 30px;
@@ -207,14 +207,14 @@ $h1font: 'Oswald', sans-serif;
                 6px 6px 8px 17px #A09D9D;
 }
 
-.img-circle {
+.borders .img-circle {
 		width: 200px;
 		height: 200px;
 		border: 5px dotted $circletwoColor;
 		
 }
 
-.img-polaroid {
+.borders .img-polaroid {
 		width: 200px;
 		height: 200px;
 		border-top-left-radius: 20px;
@@ -242,12 +242,45 @@ $h1font: 'Oswald', sans-serif;
 // what if I have multiple .img-rounded? how to I write multiples? //
 // what exactly is difference between fluid and not in Bootstrap? //
 
+
 .filters {
 	border-top: 1px solid grey;
 	margin-top: 50px; 
+
 }
-.filters img-rounded {
-		border: 5px solid $circlefiveColor;
+
+.filters .img-rounded {
+	width: 200px;
+	height: 200px;
+	margin-top: 30px;
+	border: 5px solid $circlefiveColor;
+	@include filter(grayscale(50%));
 		
+}
+
+.filters .img-circle {
+		width: 200px;
+		height: 200px;
+		border: 5px dotted $circletwoColor;
+		@include filter(grayscale(30%));
+		
+}
+
+.filters .img-polaroid {
+		width: 200px;
+		height: 200px;
+		border: 5px solid $circlesixColor;
+		@include filter(grayscale(50%));
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		display: inline-block; 
+		
+		border: 60px solid $circlefiveColor;
+		border-radius: 100%;
+		-webkit-transition: 0.5s ease;
+	}
+.filters .img-polaroid:hover {
+		border-width: 0;
+		border-color: rgba(0, 0, 0, 0.5);
 	}
 
